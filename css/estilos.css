@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fecha{
+    font-weight: bold;
+    font-size: large;
+}
+.squard{
+    background-color: rgb(241, 240, 240);
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+    height: 6em;
+    text-align: end;
+    border: 1px solid #000;
+    position: relative;
+    cursor: pointer;
+}
+.squard:hover{
+    background-color: rgb(228, 255, 23);
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+}
+.squard_today:hover{
+    background-color: rgb(228, 255, 23);
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+}
+.squard_today{
+    cursor: pointer;
+    background-color: rgb(128, 255, 124);
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+    height: 6em;
+    text-align: end;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0.1em; 
+
+}
+.contenedor{
+    
+    border: 2px solid #848383;
+    box-shadow: 2px 2px 2px 3px #dadada;
+    text-align: center;
+}
+.colors{
+    width: 1.2em;
+    height: 1.2em;
+    box-shadow: 2px 2px 2px 7px rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+}
+
