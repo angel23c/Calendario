@@ -1,6 +1,6 @@
 
 <?php
-echo "ads";
+phpinfo();
 ?>
 <!doctype html>
 <html lang="en">
