@@ -23,7 +23,7 @@ export function addevent(){
         `,
         confirmButtonText: 'Registrar Evento',
         focusConfirm: false,
-        allowOutsideClick: false, 
+       // allowOutsideClick: false, 
         preConfirm: () => {
             const name = Swal.getPopup().querySelector('#name').value
             const event = Swal.getPopup().querySelector('#event').value

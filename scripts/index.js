@@ -1,7 +1,7 @@
 import { generateMonth,nextMonth,previousMonth} from "./years.js";
 import {addevent} from "./predefinir.js"
 window.onload = function(){
-    addevent();
+    //addevent();
     generateMonth();
 
 }
